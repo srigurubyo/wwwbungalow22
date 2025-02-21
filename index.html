@@ -1,0 +1,919 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title>44 Bungalow - The Estate Villa</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="ThemeZaa">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
+        <!-- favicon icon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <!-- google fonts preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" href="css/vendors.min.css"/>
+        <link rel="stylesheet" href="css/icon.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        <link rel="stylesheet" href="demos/hotel-and-resort/hotel-and-resort.css" />
+    </head>
+    <body data-mobile-nav-style="classic">
+        <!-- start header include -->
+        <div id="header-placeholder"></div>
+        <script>
+            fetch('includes/header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading header:', error));
+        </script>
+        <!-- end header include -->      
+
+        <!-- start banner slider -->
+        <section class="p-0 top-space-margin full-screen md-h-600px sm-h-500px border-top border-4 border-color-base-color position-relative" data-parallax-background-ratio="0.3" style="background-image: url('images/Valparai-Plantations.jpg')">
+            <div class="opacity-light bg-black"></div>
+            <div class="container h-100 position-relative">
+                <div class="row align-items-center h-100 justify-content-center">
+                    <div class="col-md-10 position-relative text-white d-flex flex-column justify-content-center text-center h-100" data-anime='{ "el": "childs", "translateY": [-15, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'> 
+                        <h5 class="alt-font fw-400 mb-20px text-shadow-double-large">Experiance your holioday with Nature!</h5> 
+                        <div class="fs-225 lg-fs-200 md-fs-170 sm-fs-150 xs-fs-110 fw-700 mb-20px ls-minus-8px md-ls-minus-4px xs-ls-minus-2px text-shadow-double-large">Serenity</div>
+                        <div class="mb-30px"> 
+                            <a href="contact.html" class="btn btn-extra-large btn-switch-text btn-white fw-700 btn-round-edge btn-box-shadow">
+                                <span>
+                                    <span class="btn-double-text" data-text="Book your stay">Book your stay</span>
+                                    <span><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                </span>
+                            </a>
+                        </div> 
+                        <div class="position-absolute sm-position-relative bottom-80px lg-bottom-50px sm-bottom-0px left-0px right-0px d-flex justify-content-center align-items-center">
+                            <div class="fs-22 fw-500">Perfect place to relax and <div class="highlight-separator" data-shadow-animation="true" data-animation-delay="500">enjoy your rest.<span><img src="images/highlight-separator.svg" alt=""></span></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end banner slider --> 
+        <!-- start section -->
+        <section class="bg-very-light-gray half-section ps-6 pe-6">
+            <div class="container-fluid"> 
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "translateX": [-15, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-10 border-end border-1 sm-border-end-0 border-color-transparent-base-color md-mb-50px">
+                        <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+                            <div class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+                                <i class="line-icon-Medal-2 icon-extra-large text-base-color"></i>
+                            </div>
+                            <div class="feature-box-content last-paragraph-no-margin">
+                                <span class="alt-font text-dark-gray fs-22 ls-0px">Peaceful Retreat in Nature</span>
+                                <p>Experience tranquility like never before, nestled in the heart of Valparai’s lush landscapes..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-10 border-end border-1 md-border-end-0 border-color-transparent-base-color md-mb-50px">
+                        <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+                            <div class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+                                <i class="line-icon-Moustache-Smiley icon-extra-large text-base-color"></i>
+                            </div>
+                            <div class="feature-box-content last-paragraph-no-margin">
+                                <span class="alt-font text-dark-gray fs-22 ls-0px">Exclusive Privacy & Comfort</span>
+                                <p>Enjoy a secluded retreat with premium facilities designed for a peaceful stay..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-10 border-end border-1 sm-border-end-0 border-color-transparent-base-color sm-mb-50px">
+                        <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+                            <div class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+                                <i class="line-icon-French-Fries icon-extra-large text-base-color"></i>
+                            </div>
+                            <div class="feature-box-content last-paragraph-no-margin">
+                                <span class="alt-font text-dark-gray fs-22 ls-0px">Breathtaking Valley Views</span>
+                                <p>Wake up to panoramic views of nature, tea estates, and misty mountains.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-10">
+                        <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
+                            <div class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px">
+                                <i class="line-icon-Life-Safer icon-extra-large text-base-color"></i>
+                            </div>
+                            <div class="feature-box-content last-paragraph-no-margin">
+                                <span class="alt-font text-dark-gray fs-22 ls-0px">All Modern Amenities</span>
+                                <p>Unwind with seamless Wi-Fi, comfortable rooms, and essential facilities ensuring a relaxing stay.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        <!-- start section --> 
+        <section class="background-position-center background-repeat" style="background-image: url('images/vertical-center-line-bg.svg')">
+            <div class="container">
+                <div class="row align-items-center mb-12 md-mb-17 xs-mb-25">
+                    <div class="col-lg-5 md-mb-50px" data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 800, "delay": 200, "easing": "easeOutCirc" }'>
+                        <span class="mb-10px text-base-color fw-500 d-block">About resorts</span>
+                        <h2 class="alt-font text-dark-gray ls-minus-2px">Welcome to BUNGALOW 22 Homestay in Valparai!</h2>
+                        <p class="w-80 xl-w-100 mb-35px xs-mb-10px">One of the best ways to experience the stunning beauty of this region is by staying in BUNGALOW 22. Our homestay is designed to offer privacy, modern amenities, and a breathtaking view of nature. With a commitment to hospitality and eco-friendly practices, we ensure a memorable stay for every guest.</p>
+                        <div class="d-inline-block w-100">
+                            <a href="about-us.html" class="btn btn-extra-large btn-switch-text btn-dark-gray btn-box-shadow btn-round-edge d-inline-block align-middle me-30px xs-me-10px xs-mt-20px">
+                                <span>
+                                    <span class="btn-double-text" data-text="About resort">About</span> 
+                                </span>
+                            </a>
+                            <div class="fs-20 fw-600 d-inline-block align-middle text-dark-gray xs-mt-20px"><a href="tel:1800222000"><i class="bi bi-telephone-outbound text-medium-gray icon-small me-10px"></i>+91 7448804422</a></div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-6 position-relative offset-lg-1"> 
+                        <span class="fs-90 position-absolute left-60px md-left-100px sm-left-70px xs-left-10px top-90px xs-top-50px text-dark-gray fw-700 z-index-1" data-bottom-top="transform: translateY(50px) scale(1,1)" data-top-bottom="transform: translateY(-50px) scale(1,1)" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 1500, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fs-15 fw-600 d-table lh-16 text-uppercase text-medium-gray">Discover scenic trails</span>Explore</span>
+                        <div class="w-75 overflow-hidden position-relative xs-w-80 border-radius-4px float-end" data-anime='{ "effect": "slide", "color": "#A0875B", "direction":"rl", "easing": "easeOutQuad", "duration": 600, "delay":400}'>
+                            <img class="w-100" src="images/WhatsApp Image 2025-02-20 at 11.46.23 AM.jpeg" alt="" >
+                        </div>
+                        <div class="position-absolute left-minus-70px md-left-15px bottom-minus-50px w-55 overflow-hidden" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)" data-anime='{ "effect": "slide", "color": "#ffffff", "direction":"lr", "easing": "easeOutQuad", "duration": 600, "delay":500}'>
+                            <img class="w-100 border-radius-4px" src="images/4a6227aa16f788eaeae8fd97be0220b5.jpg" alt="">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row position-relative">
+                    <div class="col swiper swiper-width-auto feather-shadow text-cente" data-slider-options='{ "slidesPerView": "auto", "spaceBetween":0, "centeredSlides": true, "speed": 10000, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-2", "clickable": false }, "allowTouchMove": false, "autoplay": { "delay":1, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-four-slide-next-2", "prevEl": ".slider-four-slide-prev-2" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
+                        <div class="swiper-wrapper marquee-slide">
+                            <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>Our Homestay is equipped with premium facilities</div>
+                            </div>
+                            <!-- end client item --> 
+                            <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>We make the best for all our customers</div>
+                            </div>
+                            <!-- end client item -->
+                            <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>Wake up to panoramic views of nature, tea estates, and misty mountains.</div>
+                            </div>
+                            <!-- end client item -->
+                            <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>Sustainable and meaningful ecosystem of hospitality</div>
+                            </div>
+                            <!-- end client item --> 
+                             <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>Our Homestay is equipped with premium facilities</div>
+                            </div>
+                            <!-- end client item --> 
+                            <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>We make the best for all our customers</div>
+                            </div>
+                            <!-- end client item -->
+                            <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>Wake up to panoramic views of nature, tea estates, and misty mountains.</div>
+                            </div>
+                            <!-- end client item -->
+                            <!-- start client item -->
+                            <div class="swiper-slide">
+                                <div class="fs-28 sm-fs-22 alt-font ls-minus-05px text-dark-gray"><span class="w-10px h-10px border border-radius-100 border-color-base-color d-inline-block ms-50px me-50px md-ms-30px md-me-30px"></span>Sustainable and meaningful ecosystem of hospitality</div>
+                            </div>
+                            <!-- end client item --> 
+                            <!-- end client item --> 
+                        </div> 
+                    </div>  
+                </div> 
+            </div>
+        </section>
+        <!-- end section -->
+        <!-- start section --> 
+        <section class="bg-very-light-gray overlap-height position-relative background-position-center background-repeat" style="background-image: url('images/vertical-center-line-bg-dark.svg')"> 
+            <div class="container overlap-gap-section">
+                <div class="row justify-content-center mb-5 xs-mb-7">
+                    <div class="col-md-8 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px"></h2>
+                        <span class="d-inline-block">Start your day with breathtaking views of lush tea estates, mist-covered mountains, and the serene beauty of nature all around.</span>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <!-- start rotate box item --> 
+                    <div class="col text-center rotate-box-style-01 lg-mb-45px" data-bottom-top="transform: translateY(80px)" data-top-bottom="transform: translateY(-80px)">
+                        <div class="rm-rotate-box text-center">
+                            <div class="flipper to-left">
+                                <div class="thumb-wrap">
+                                    <div class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden" style="background-image:url('images/green_enhanced_image.jpeg')"> 
+                                    </div>
+                                    <div class="back border-radius-4px overflow-hidden">
+                                        <div class="box-overlay bg-base-color"></div>
+                                        <div class="content-wrap p-40px xs-p-30px last-paragraph-no-margin"> 
+                                            <i class="line-icon-Dumbbell align-middle icon-extra-large text-white mb-20px"></i>
+                                            <p class="text-white opacity-7 lh-30 sm-w-70 xs-w-100 mx-auto">Witness the breathtaking sight of wild Indian Gaurs roaming freely amidst the lush green tea estates of Valparai.</p> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="fs-20 d-inline-block mt-30px fw-600 text-dark-gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end rotate box item -->
+                    <!-- start rotate box item -->
+                    <div class="col text-center rotate-box-style-01 lg-mb-45px" data-bottom-top="transform: translateY(-40px)" data-top-bottom="transform: translateY(40px)">
+                        <div class="rm-rotate-box text-center">
+                            <div class="flipper to-left">
+                                <div class="thumb-wrap">
+                                    <div class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden" style="background-image:url('images/less_green_elephant.jpeg')"> 
+                                    </div>
+                                    <div class="back border-radius-4px overflow-hidden">
+                                        <div class="box-overlay bg-base-color"></div>
+                                        <div class="content-wrap p-40px xs-p-30px last-paragraph-no-margin"> 
+                                            <i class="line-icon-Leafs align-middle icon-extra-large text-white mb-20px"></i>
+                                            <p class="text-white opacity-7 lh-30 sm-w-70 xs-w-100 mx-auto">A majestic elephant wandering through the lush green tea estates of Valparai.</p> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="fs-20 d-inline-block mt-30px fw-600 text-dark-gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end rotate box item -->
+                    <!-- start rotate box item -->
+                    <div class="col text-center rotate-box-style-01 lg-mb-45px" data-bottom-top="transform: translateY(80px)" data-top-bottom="transform: translateY(-80px)">
+                        <div class="rm-rotate-box text-center">
+                            <div class="flipper to-left">
+                                <div class="thumb-wrap">
+                                    <div class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden" style="background-image:url('images/processed_peacock.jpeg')"> 
+                                    </div>
+                                    <div class="back border-radius-4px overflow-hidden">
+                                        <div class="box-overlay bg-base-color"></div>
+                                        <div class="content-wrap p-40px xs-p-30px last-paragraph-no-margin"> 
+                                            <i class="line-icon-Summer align-middle icon-extra-large text-white mb-20px"></i>
+                                            <p class="text-white opacity-7 lh-30 sm-w-70 xs-w-100 mx-auto">A mesmerizing sight of peacocks blending with Valparai’s vibrant landscape.</p> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="fs-20 d-inline-block mt-30px fw-600 text-dark-gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end rotate box item -->
+                    <!-- start rotate box item -->
+                    <div class="col text-center rotate-box-style-01 md-mb-45px" data-bottom-top="transform: translateY(80px)" data-top-bottom="transform: translateY(-80px)">
+                        <div class="rm-rotate-box text-center">
+                            <div class="flipper to-left">
+                                <div class="thumb-wrap">
+                                    <div class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden" style="background-image:url('images/WhatsApp Image 2025-02-20 at 11.46.24 AM.jpeg')"> 
+                                    </div>
+                                    <div class="back border-radius-4px overflow-hidden">
+                                        <div class="box-overlay bg-base-color"></div>
+                                        <div class="content-wrap p-40px xs-p-30px last-paragraph-no-margin"> 
+                                            <i class="line-icon-Swimming align-middle icon-extra-large text-white mb-20px"></i>
+                                            <p class="text-white opacity-7 lh-30 sm-w-70 xs-w-100 mx-auto">A serene moment where the sky meets nature, with a lone bird and the moon in harmony.</p> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="fs-20 d-inline-block mt-30px fw-600 text-dark-gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end rotate box item -->
+                    <!-- start rotate box item -->
+                    <div class="col text-center rotate-box-style-01 mt-5 lg-mt-0 sm-mb-45px" data-bottom-top="transform: translateY(-40px)" data-top-bottom="transform: translateY(40px)">
+                        <div class="rm-rotate-box text-center">
+                            <div class="flipper to-left">
+                                <div class="thumb-wrap">
+                                    <div class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden" style="background-image:url('images/WhatsApp Image 2025-02-20 at 11.46.22 AM.jpeg')"> 
+                                    </div>
+                                    <div class="back border-radius-4px overflow-hidden">
+                                        <div class="box-overlay bg-base-color"></div>
+                                        <div class="content-wrap p-40px xs-p-30px last-paragraph-no-margin"> 
+                                            <i class="line-icon-Chopsticks align-middle icon-extra-large text-white mb-20px"></i>
+                                            <p class="text-white opacity-7 lh-30 sm-w-70 xs-w-100 mx-auto">A tranquil lake nestled amidst lush green tea estates and misty mountains of Valparai.</p> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="fs-20 d-inline-block mt-30px fw-600 text-dark-gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end rotate box item -->
+                    <!-- start rotate box item -->
+                    <div class="col text-center rotate-box-style-01" data-bottom-top="transform: translateY(80px)" data-top-bottom="transform: translateY(-80px)">
+                        <div class="rm-rotate-box text-center">
+                            <div class="flipper to-left">
+                                <div class="thumb-wrap">
+                                    <div class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden" style="background-image:url('images/processed_lake_reflection.jpeg')"> 
+                                    </div>
+                                    <div class="back border-radius-4px overflow-hidden">
+                                        <div class="box-overlay bg-base-color"></div>
+                                        <div class="content-wrap p-40px xs-p-30px last-paragraph-no-margin"> 
+                                            <i class="line-icon-ICQ align-middle icon-extra-large text-white mb-20px"></i>
+                                            <p class="text-white opacity-7 lh-30 sm-w-70 xs-w-100 mx-auto">A mesmerizing reflection of Valparai’s serene landscape on calm waters.</p> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="fs-20 d-inline-block mt-30px fw-600 text-dark-gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end rotate box item -->
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        <!-- start section --> 
+        <section class="background-position-center background-repeat" style="background-image: url('images/vertical-center-line-bg.svg')">
+            <!--<div class="container overlap-section">
+                <div class="row bg-white box-shadow-extra-large border-radius-6px ps-5 pe-5 pt-3 pb-3 g-0 sm-p-6 sm-ps-19 align-items-center mb-8 overflow-hidden position-relative">
+                    <div class="col-lg-2 col-md-3 text-center sm-mb-25px">
+                        <img src="https://placehold.co/89x107" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-start sm-mb-25px">
+                        <div class="fs-26 alt-font fw-500 text-dark-gray ls-minus-05px">Life is shaped by a series of interconnected experiences <span class="text-decoration-line-bottom fw-600">our environments.</span></div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 text-center">
+                        <img class="md-w-85 sm-w-auto" src="images/demo-hotel-and-resort-home-10.png" alt="">
+                    </div>
+                    <div class="vertical-title-center align-items-center position-absolute top-0px left-0px bg-base-color p-10px w-50px h-100 w-10px z-index-9">
+                        <div class="title fs-15 ls-1px text-white fw-600 text-uppercase">Testimonial</div>
+                    </div>
+                </div>
+            </div>-->
+            <!-- <div class="container">
+                <div class="row justify-content-center mb-5 xs-mb-7">
+                    <div class="col-md-8 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'> 
+                        <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">Exclusive offers</h2>
+                        <span class="d-inline-block">Enjoy in resorts and awesome facilities.</span>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-9" data-anime='{ "el": "childs", "translateY": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>-->
+                    <!-- start interactive banner item -->
+                <!-- <div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">                        
+                        <figure class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
+                            <img src="https://placehold.co/600x700" alt="" />
+                            <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
+                            <figcaption>
+                                <div class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-50px text-center"> 
+                                    <div class="w-65 lg-w-90 mt-auto mb-auto">
+                                        <span class="fs-14 fw-500 ls-2px text-white text-uppercase">Exclusive</span>
+                                        <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
+                                        <h6 class="alt-font text-white mb-0">Honeymoon<br>package</h6>
+                                    </div>
+                                    <div class="hover-show-content text-center"> 
+                                        <a href="rooms.html" class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
+                                            <i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
+                                        </a>   
+                                    </div>
+                                    <div class="hover-hide-content">
+                                        <span class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700">Get 40% off</span>
+                                    </div>
+                                </div> 
+                            </figcaption>
+                        </figure>
+                    </div>-->
+                    <!-- end interactive banner item -->
+                    <!-- start interactive banner item -->
+                    <!--<div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">                        
+                        <figure class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
+                            <img src="https://placehold.co/600x700" alt="" />
+                            <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
+                            <figcaption>
+                                <div class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center"> 
+                                    <div class="w-65 lg-w-90 mt-auto mb-auto">
+                                        <span class="fs-14 fw-500 ls-2px text-white text-uppercase">Unbundled</span>
+                                        <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
+                                        <h6 class="alt-font text-white mb-0">Cocktail<br>package</h6>
+                                    </div>
+                                    <div class="hover-show-content text-center"> 
+                                        <a href="amenities" class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
+                                            <i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
+                                        </a> 
+                                    </div>
+                                    <div class="hover-hide-content">
+                                        <span class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700">Get 30% off</span>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>-->
+                    <!-- end interactive banner item -->
+                    <!-- start interactive banner item -->
+                   <!-- <div class="col interactive-banner-style-07">                        
+                        <figure class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large">
+                            <img src="https://placehold.co/600x700" alt="" />
+                            <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
+                            <figcaption>
+                                <div class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center"> 
+                                    <div class="w-65 lg-w-90 mt-auto mb-auto">
+                                        <span class="fs-14 fw-500 ls-2px text-white text-uppercase">Wellness</span>
+                                        <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"></div>
+                                        <h6 class="alt-font text-white mb-0">Massage<br>package</h6>
+                                    </div>
+                                    <div class="hover-show-content text-center"> 
+                                        <a href="bistro.html" class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block">
+                                            <i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"></i>
+                                        </a> 
+                                    </div>
+                                    <div class="hover-hide-content">
+                                        <span class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700">Get 20% off</span>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>-->
+                    <!-- end interactive banner item --> 
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 text-center justify-content-center clients-style-05 mb-4 sm-mb-7" data-anime='{ "el": "childs", "opacity": [0,1], "duration": 500, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+                    <!-- start client item -->
+                    <div class="col sm-mb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-hotel-and-resort-client-01.svg" class="h-55px" alt="" /></a> 
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col sm-mb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-hotel-and-resort-client-02.svg" class="h-55px" alt="" /></a> 
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col xs-mb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-hotel-and-resort-client-03.svg" class="h-55px" alt="" /></a> 
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-hotel-and-resort-client-04.svg" class="h-55px" alt="" /></a> 
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                </div> 
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 text-center last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                        <div class="d-inline-block align-middle bg-dark-gray fw-600 text-white text-uppercase border-radius-4px ps-15px pe-15px fs-12 me-10px md-m-5px">Awesome</div> 
+                        <div class="d-inline-block align-middle text-dark-gray fs-20 fw-500"><span class="text-decoration-line-bottom fw-600">Get 20% discount</span> on hotels booking with above websites.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        <!-- start section --> 
+        <section class="p-0 overflow-hidden">
+            <div class="container-fluid p-0"> 
+                <div class="row g-0 bg-very-light-gray">
+                    <div class="col-xl-3 col-lg-4 col-md-5 tab-style-07 d-flex align-items-start align-items-xl-center">
+                        <ul class="nav nav-tabs justify-content-center border-0 text-left fs-24 alt-font">
+                            <li class="nav-item">
+                                <a data-bs-toggle="tab" href="#tab_seven1" class="nav-link active">
+                                    <span><span class="primary-font me-10px fs-18 fw-600">01</span>. The Family Suite (1)                                </span>
+                                    <span class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                                    <span class="bg-hover bg-base-color"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven2">
+                                    <span><span class="primary-font me-10px fs-18 fw-600">02</span>Single Suite Room (1)                                </span>
+                                    <span class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                                    <span class="bg-hover bg-base-color"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven3">
+                                    <span><span class="primary-font me-10px fs-18 fw-600">03</span>Deluxe Suite Room (1)                                </span>
+                                    <span class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                                    <span class="bg-hover bg-base-color"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven4">
+                                    <span><span class="primary-font me-10px fs-18 fw-600">04</span>Deluxe Suite Room (2)</span>
+                                    <span class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                                    <span class="bg-hover bg-base-color"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab_seven5">
+                                    <span><span class="primary-font me-10px fs-18 fw-600">05</span>The Family Suite (1)                                </span>
+                                    <span class="number-box d-flex justify-content-center align-items-center rounded-circle h-70px w-70px bg-base-color text-white"><i class="bi bi-arrow-right icon-extra-medium"></i></span>
+                                    <span class="bg-hover bg-base-color"></span>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="col-xl-9 col-lg-8 col-md-7">
+                        <div class="tab-content h-100">
+                            <!-- start tab content -->
+                            <div class="tab-pane fade in active show h-100" id="tab_seven1">
+                                <div class="row g-0 h-100 lg-h-auto">
+                                    <div class="col-xl-6">
+                                        <div class="h-100 lg-h-400px cover-background position-relative" style="background-image: url(https://placehold.co/752x577)">
+                                            <div class="position-absolute right-0px bottom-0 d-flex">
+                                                <div class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
+                                                    <div class="fs-30 fw-700 text-dark-gray"><span class="fs-16 fw-500 d-table lh-22 text-medium-gray">Starting from</span>$50.00</div>
+                                                </div>
+                                                <div class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                                                    <a href="contact.html" class="d-flex align-items-center text-white">
+                                                        <span class="fs-18 fw-600 lh-22 text-uppercase me-15px">Book<br>now</span><span class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                                        <div class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                                            <span class="text-base-color fw-500">Phenomenal view</span>
+                                            <h3 class="text-dark-gray mb-15px alt-font">The Family Suite</h3>
+                                            <p>Two deluxe suite rooms that can be connected through a common
+                                                door between two living rooms
+                                            <p>Bedroom 1 - Queen Bed; Bedroom 2 - Single beds 2x</p>
+                                            <p><b>Dimensions: 792 sq.ft</p></b>
+                                            <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100">
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-French-Fries icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Living room 1&2 - 132 sq.ft each,</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Sleeping icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Bedroom 1&2 - 144 sq.ft each,
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                 <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Dress icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Dressing Room 1&2 - 60 sq.ft each</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div class="tab-pane fade in h-100" id="tab_seven2">
+                                <div class="row g-0 h-100 lg-h-auto">
+                                    <div class="col-xl-6">
+                                        <div class="h-100 lg-h-400px cover-background position-relative" style="background-image: url(https://placehold.co/752x577)">
+                                            <div class="position-absolute right-0px bottom-0 d-flex">
+                                                <div class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
+                                                    <div class="fs-30 fw-700 text-dark-gray"><span class="fs-16 fw-500 d-table lh-22 text-medium-gray">Starting from</span>$50.00</div>
+                                                </div>
+                                                <div class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                                                    <a href="contact.html" class="d-flex align-items-center text-white">
+                                                        <span class="fs-18 fw-600 lh-22 text-uppercase me-15px">Book<br>now</span><span class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                                        <div class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                                            <span class="text-base-color fw-500">Phenomenol view</span>
+                                            <h3 class="text-dark-gray mb-15px alt-font">Single Suite Room</h3>
+                                            <p>Room with two single beds, a living room, dressing room and an
+                                                attached bathroom.</p>
+                                                <p><b>Dimensions: 396 sq.ft</p></b>
+                                            <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100">
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-French-Fries icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Living room - 132 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Sleeping icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Bedroom - 144 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px lg-ps-25px lg-pe-25px overflow-hidden">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Dress icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Dressing Room - 60sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item --> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div class="tab-pane fade in h-100" id="tab_seven3">
+                                <div class="row g-0 h-100 lg-h-auto">
+                                    <div class="col-xl-6">
+                                        <div class="h-100 lg-h-400px cover-background position-relative" style="background-image: url(https://placehold.co/752x577)">
+                                            <div class="position-absolute right-0px bottom-0 d-flex">
+                                                <div class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
+                                                    <div class="fs-30 fw-700 text-dark-gray"><span class="fs-16 fw-500 d-table lh-22 text-medium-gray">Starting from</span>$50.00</div>
+                                                </div>
+                                                <div class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                                                    <a href="contact.html" class="d-flex align-items-center text-white">
+                                                        <span class="fs-18 fw-600 lh-22 text-uppercase me-15px">Book<br>now</span><span class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                                        <div class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                                            <span class="text-base-color fw-500">Phenomenal view</span>
+                                            <h3 class="text-dark-gray mb-15px alt-font">Deluxe Suite Room</h3>
+                                            <p>Room with Queen Size bed, a living room, dressing room and an
+                                                attached bathroom.</p>
+                                                <p><b>Dimensions: 396 sq.ft</p></b>
+                                            <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100">
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-French-Fries icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Living room - 132 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Sleeping icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Bedroom - 144 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px lg-ps-25px lg-pe-25px overflow-hidden">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Dress icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Dressing Room - 60sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item --> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div class="tab-pane fade in h-100" id="tab_seven4">
+                                <div class="row g-0 h-100 lg-h-auto">
+                                    <div class="col-xl-6">
+                                        <div class="h-100 lg-h-400px cover-background position-relative" style="background-image: url(https://placehold.co/752x577)">
+                                            <div class="position-absolute right-0px bottom-0 d-flex">
+                                                <div class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
+                                                    <div class="fs-30 fw-700 text-dark-gray"><span class="fs-16 fw-500 d-table lh-22 text-medium-gray">Starting from</span>$50.00</div>
+                                                </div>
+                                                <div class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                                                    <a href="contact.html" class="d-flex align-items-center text-white">
+                                                        <span class="fs-18 fw-600 lh-22 text-uppercase me-15px">Book<br>now</span><span class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                                        <div class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                                            <span class="text-base-color fw-500">Phenomenal  view</span>
+                                            <h3 class="text-dark-gray mb-15px alt-font">Deluxe Suite Room</h3>
+                                            <p>Room with Queen Size bed, a living room, dressing room and an attached bathroom.</p>
+                                            <p><b>Dimensions: 324 sq.ft</p></b>
+                                            <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100">
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Bathrobe icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Living room - 60 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Sleeping icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Bedroom - 144 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px lg-ps-25px lg-pe-25px overflow-hidden">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Dress icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Dressing Room - 60sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item --> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div class="tab-pane fade in h-100" id="tab_seven5">
+                                <div class="row g-0 h-100 lg-h-auto">
+                                    <div class="col-xl-6">
+                                        <div class="h-100 lg-h-400px cover-background position-relative" style="background-image: url(https://placehold.co/752x577)">
+                                            <div class="position-absolute right-0px bottom-0 d-flex">
+                                                <div class="ps-40px pe-40px h-110px bg-white d-flex align-items-center">
+                                                    <div class="fs-30 fw-700 text-dark-gray"><span class="fs-16 fw-500 d-table lh-22 text-medium-gray">Starting from</span>$50.00</div>
+                                                </div>
+                                                <div class="ps-40px pe-40px xs-ps-30px xs-pe-30px h-110px bg-dark-gray d-flex align-items-center">
+                                                    <a href="contact.html" class="d-flex align-items-center text-white">
+                                                        <span class="fs-18 fw-600 lh-22 text-uppercase me-15px">Book<br>now</span><span class="w-55px h-55px bg-white-transparent-extra-light border-radius-100 text-white position-relative"><i class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center lh-0px"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 bg-very-light-gray pt-6 pb-6 ps-8 pe-8">
+                                        <div class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100">
+                                            <span class="text-base-color fw-500">Mountain view</span>
+                                            <h3 class="text-dark-gray mb-15px alt-font">The Family Suite</h3>
+                                                <p>A suite with a common hall, a study and two individual bedrooms
+                                                with dressing room and attached bathrooms.</p>
+                                                <p>Bedroom 1 - Queen Bed; Bedroom 2 - Single beds 2x</p>
+                                            <p><b>Dimensions: 698 sq.ft</p></b>
+                                            <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100">
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-French-Fries icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Common Living room - 135 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px xs-mb-30px overflow-hidden border-end xs-border-end-0 border-color-transparent-base-color">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Laptop icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Common Study Room - 35 sq.ft</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px lg-ps-25px lg-pe-25px overflow-hidden">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Sleeping icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Bedroom 1 & 2 - 144 sq.ft each</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item -->
+                                                 <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px lg-ps-25px lg-pe-25px overflow-hidden">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Dress icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20">Dressing Room 1 & 2 - 60 sq.ft
+                                                                each</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item --> 
+                                                 <!-- start features box item -->
+                                                <div class="col icon-with-text-style-03">
+                                                    <div class="feature-box ps-25px pe-25px xl-ps-15px xl-pe-15px lg-ps-25px lg-pe-25px overflow-hidden">
+                                                        <div class="feature-box-icon">
+                                                            <i class="line-icon-Bathrobe icon-large text-base-color mb-15px"></i>
+                                                        </div>
+                                                        <div class="feature-box-content last-paragraph-no-margin">
+                                                            <span class="d-inline-block text-dark-gray fw-600 fs-14 text-uppercase lh-20"> Bathroom 1&2 - 60 sq.ft each each</span>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end features box item --> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        
+        <!-- end section --> 
+
+        <!-- start footer include -->
+        <div id="footer-placeholder"></div>
+        <script>
+            fetch('includes/main-footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading footer:', error));
+        </script>
+        <!-- end footer include -->   
+
+
+        <!-- start scroll progress -->
+        <div class="scroll-progress d-none d-xxl-block">
+            <a href="#" class="scroll-top" aria-label="scroll">
+                <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+            </a>
+        </div>
+        <!-- end scroll progress -->
+        <!-- javascript libraries -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
